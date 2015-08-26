@@ -3,4 +3,4 @@
 ### フリックでステータスを切り替える（スマホ限定）
 
 
-![Sample](csp.mov "sample movie")
+![Sample](/output.gif "sample movie")
