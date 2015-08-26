@@ -1,0 +1,1 @@
+$(function(){new AbuiFlickmenu({wrapperElements:$("#js-flick-menu")})});

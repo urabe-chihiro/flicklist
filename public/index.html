@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="keywords" content=""/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+
+
+
+    <!-- Loading Bootstrap | jQuery Ui Css 修正禁止!! -->
+    <link rel="stylesheet" type="text/css" href="css/common/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/flick-menu.css">
+
+    <title>flick-menu</title>
+
+</head>
+<body>
+    <h1 class="headline">
+        フリックでステータスを切り替え<br>
+        <span class="fs10">PCで見るときはエミュレーションをスマートフォンに！</span>
+    </h1>
+    <div class="wrapper">
+        <div id="js-flick-menu">
+            <div class="flick-li">
+                <ul class="list-unstyled">
+                    <li class="pane unread">
+                        未読
+                    </li>
+                    <li class="">
+                        <!-- ここを自由にカスタマイズ -->
+                        <p class="flick-li__text">
+                            2015/03/02 11:17
+                        </p>
+                        <p>
+                            <span class="icon-text--default">ワークフロー</span>
+                            2件の承認依頼があります
+                        </p>
+                    </li>
+                    <li class="pane readed">
+                        既読
+                    </li>
+                </ul>
+            </div>
+            <div class="flick-li">
+                <ul class="list-unstyled">
+                    <li class="pane unread">
+                        未読
+                    </li>
+                    <li class="">
+                        <!-- ここを自由にカスタマイズ -->
+                        <p class="flick-li__text">
+                            2015/03/02 11:17
+                        </p>
+                        <p class="line-height7">
+                            <span class="icon-text--default">あとで読む</span>
+                            お客様に提出書類を全文読んで、添削する。17:00までに提出。
+                        </p>
+                    </li>
+                    <li class="pane readed">
+                        既読
+                    </li>
+                </ul>
+            </div>
+            <div class="flick-li">
+                <ul class="list-unstyled">
+                    <li class="pane unread">
+                        未読
+                    </li>
+                    <li class="">
+                        <p class="flick-li__text">
+                            2015/03/02 11:17
+                        </p>
+                        <p>
+                            <span class="icon-text--default">ワークフロー</span>
+                            2件の承認依頼があります
+                        </p>
+                    </li>
+                    <li class="pane readed">
+                        既読
+                    </li>
+                </ul>
+            </div>
+            <div class="flick-li">
+                <ul class="list-unstyled">
+                    <li class="pane unread">
+                        未読
+                    </li>
+                    <li class="">
+                        <p class="flick-li__text">
+                            2015/03/02 11:17
+                        </p>
+                        <p>
+                            <span class="icon-text--default">ワークフロー</span>
+                            2件の承認依頼があります
+                        </p>
+                    </li>
+                    <li class="pane readed">
+                        既読
+                    </li>
+                </ul>
+            </div>
+            <div class="flick-li">
+                <ul class="list-unstyled">
+                    <li class="pane unread">
+                        未読
+                    </li>
+                    <li class="">
+                        <p class="flick-li__text">
+                            2015/03/02 11:17
+                        </p>
+                        <p>
+                            <span class="icon-text--default">Todo</span>
+                            企画書の提出
+                        </p>
+                    </li>
+                    <li class="pane readed">
+                        既読
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <p class="detailtext m16">
+        リストを左にフリックすると既読ステータス<br>
+        リストを右にフリックすると未読ステータス
+    </p>
+
+    <script type="text/javascript" src="js/libs/jquery-1.8.3.min.js"></script>
+    <!-- <script type="text/javascript" src="http://hammerjs.github.io/dist/hammer.min.js"></script>-->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.1.3/hammer.min.js"></script>
+    <script type="text/javascript" src="../js/flick-menu.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

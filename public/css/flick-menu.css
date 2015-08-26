@@ -1,0 +1,38 @@
+.flick-li {
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1); }
+
+.flick-li ul {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #e5e9ec;
+  list-style: none;
+  -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d; }
+
+.flick-li ul.animate {
+  -webkit-transition: all .2s;
+  transition: all .2s; }
+
+.flick-li ul li {
+  display: table-cell;
+  overflow: hidden;
+  width: 100%;
+  padding: 16px;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: translate3d(0, 0, 0); }
+
+.flick-li ul li.pane {
+  overflow: hidden;
+  vertical-align: middle; }
